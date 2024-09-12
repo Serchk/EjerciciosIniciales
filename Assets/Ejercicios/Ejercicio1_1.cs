@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class Ejercicio1_1 : MonoBehaviour
 {
-    //tipo nombre = valor; el valor por defecto en cada tipo son los siguientes 
-    //int vidas = 0;
-    //string nombrePersonaje = "";
-    //bool veneno = false;
-    //float porcentajeAcierto = 0.0f;
-    //char solucionPuzle = ' ';
-    int vidas = 100;
-    string nombrePersonaje = "Roger";
-    bool veneno = false;
-    float porcentajeAcierto = 40.8f;
-    char solucionPuzle = 'S';
-
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Hola " + nombrePersonaje + ", bienvenido a mi mundo.");
+        Debug.Log("¡Hola mundo!");
+        Debug.Log("Este es el primer videojuego de Sergio");
+        Debug.Log("Estoy aprendiendo C#");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Adios mundo!");
+        Debug.Log("Ha pasado un frame");
+        // este último mensaje se reproduce varias veces
+        // debido a que está en el bloque Update que "acciona" el código en cada fotograma
+        
     }
 }
