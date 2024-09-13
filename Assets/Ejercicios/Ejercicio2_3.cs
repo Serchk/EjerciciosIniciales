@@ -5,9 +5,8 @@ using UnityEngine;
 public class Ejercicio2_3 : MonoBehaviour
 {
     int vidas = 20, dobleDeVidas;
-    float exp = 15, tripleDeExp;
-    int producto;
-    float cociente, resto;
+    float exp = 15f, tripleDeExp;
+    float producto, cociente, resto;
     // Start is called before the first frame update
     void Start()
     {
