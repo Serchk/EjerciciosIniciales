@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ejercicio2_8 : MonoBehaviour
 {
     float vidaPersonaje1 = 120;
-    float dañoVeneno = ; //no se cómo hacerlo
+    float dañoVeneno; //no se cómo hacerlo
     // Start is called before the first frame update
     void Start()
     {
