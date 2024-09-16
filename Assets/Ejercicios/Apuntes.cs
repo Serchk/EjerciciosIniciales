@@ -15,8 +15,15 @@ public class Apuntes : MonoBehaviour
         int compraEnCasa = IrAlSuper(numeroA, numeroB); // puedes llamar variables globales para representar las locales del método
         Debug.Log(compraEnCasa);
         Debug.Log(IrAlSuper(numeroA, numeroB));// no hay por qué crear nueva variable en este caso
-    }
 
+        //Estructuras de control if, for...
+
+        //if() //condición entre parentesis
+        {
+
+        }
+      
+    }
 
     // Update is called once per frame
     void Update()
