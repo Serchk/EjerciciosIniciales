@@ -131,6 +131,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 519420032}
+  - component: {fileID: 519420039}
+  - component: {fileID: 519420038}
   - component: {fileID: 519420037}
   - component: {fileID: 519420036}
   - component: {fileID: 519420035}
@@ -279,6 +281,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0827cebdbd44bc479d1780092521871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519420038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30673f717ad8e94787a9b27a98826d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor1: 11
+  valor2: 9
+--- !u!114 &519420039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9783a63a9688eb04c973e85686f051d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: Potatoide
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

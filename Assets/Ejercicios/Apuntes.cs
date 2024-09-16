@@ -12,9 +12,9 @@ public class Apuntes : MonoBehaviour
     void Start()
     {
         // mantener control + clic izq para ir al método
-        int compraEnCasa = SumarDosPagas(numeroA, numeroB); // puedes llamar variables globales para representar las locales del método
+        int compraEnCasa = IrAlSuper(numeroA, numeroB); // puedes llamar variables globales para representar las locales del método
         Debug.Log(compraEnCasa);
-        Debug.Log(SumarDosPagas(numeroA, numeroB));// no hay por qué crear nueva variable en este caso
+        Debug.Log(IrAlSuper(numeroA, numeroB));// no hay por qué crear nueva variable en este caso
     }
 
 
@@ -24,7 +24,7 @@ public class Apuntes : MonoBehaviour
         
     }
 
-    int SumarDosPagas(int paga1, int paga2) // escribir el dato entre parentesis y llamar al valor en donde llames al método
+    int IrAlSuper(int paga1, int paga2) // escribir el dato entre parentesis y llamar al valor en donde llames al método
     {
         // Variables LOCALES
         //int paga1 = 3;
