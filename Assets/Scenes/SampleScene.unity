@@ -692,6 +692,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887986107}
+  - component: {fileID: 887986113}
+  - component: {fileID: 887986112}
+  - component: {fileID: 887986111}
   - component: {fileID: 887986110}
   - component: {fileID: 887986109}
   - component: {fileID: 887986108}
@@ -811,6 +814,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numero: 9
+--- !u!114 &887986111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887986105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73c96523a2113b499de0b7e0965c70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dividendo: 4
+  divisor: -6.99
+--- !u!114 &887986112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887986105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e810ec9bc94a1a248b14a85d4420a8b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 1
+--- !u!114 &887986113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887986105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee1ab95f516472448fcc6d3c68a325f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  niveles: 18
 --- !u!1 &1076203046
 GameObject:
   m_ObjectHideFlags: 0
