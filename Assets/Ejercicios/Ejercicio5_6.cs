@@ -18,7 +18,7 @@ public class Ejercicio5_6 : MonoBehaviour
         }
         else
         {
-            Debug.Log("5.6 || Charmander no puede aprender un nuevo ataque aún, le falta nivel.")
+            Debug.Log("5.6 || Charmander no puede aprender un nuevo ataque aún, le falta nivel.");
         }
         //ahora intentaba decir lo que le quedaba para llegar al siguiente nivel en el que puede subir de nivel. Pero no sale en el enunciado y no me puede entrtenar más jajaja.
         //else
