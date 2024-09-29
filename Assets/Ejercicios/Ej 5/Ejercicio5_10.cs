@@ -10,19 +10,19 @@ public class Ejercicio5_10 : MonoBehaviour
     {
         if (temperatura <= 10)
         {
-            Debug.Log("Clima: Frío"):
+            Debug.Log("Clima: Frío");
         }
         else if (temperatura > 10 && temperatura <= 20)
         {
-            Debug.Log("Clima: Nublado"):
+            Debug.Log("Clima: Nublado");
         }
         else if(temperatura > 20 && temperatura <= 30)
         {
-            Debug.Log("Clima: Caluroso"):
+            Debug.Log("Clima: Caluroso");
         }
         else if( temperatura > 30)
         {
-            Debug.Log("Clima: Tropical"):
+            Debug.Log("Clima: Tropical");
         }
     }
 
