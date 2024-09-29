@@ -16,7 +16,7 @@ public class Ejercicio7_8 : MonoBehaviour
             {
                 if(i %2 == 0)
                 {
-                    Debug.Log("7.7 || " + i);
+                    Debug.Log("7.8 || " + i);
                 }
                 
             }
@@ -28,7 +28,7 @@ public class Ejercicio7_8 : MonoBehaviour
             {
                 if (i % 2 == 0)
                 {
-                    Debug.Log("7.7 || " + i);
+                    Debug.Log("7.8 || " + i);
                 }
             }
         }
