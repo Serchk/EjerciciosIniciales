@@ -2,16 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_1 : MonoBehaviour
+public class Ejercicio7_4 : MonoBehaviour
 {
-    int numero = 1;
     // Start is called before the first frame update
     void Start()
     {
-        while (numero <= 100)// Bucle (Ciclo)
+        for (int i = 100; i > 0; i--)
         {
-            Debug.Log("7.1 || " + numero);
-            numero++;
+            Debug.Log("7.4 || " + i);
         }
     }
 
