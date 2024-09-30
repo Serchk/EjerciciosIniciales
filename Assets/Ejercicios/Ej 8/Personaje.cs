@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
-    string nombre;
-    int vida;
-    float experiencia;
+    string nombre = "Pepe";
+    int vida = 20;
+    float experiencia = 10;
     // Start is called before the first frame update
     void Start()
     {
-        
+        float nivel = CalcularNivel();
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class Personaje : MonoBehaviour
     }
     float CalcularNivel()
     {
-
+        float lvl = experiencia / 1000;
+        return lvl;
     }
 }
