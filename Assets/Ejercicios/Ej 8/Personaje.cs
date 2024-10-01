@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
-    string nombre = "Pepe";
-    int vida = 20;
+    string nombre;
+    int vida;
     float experiencia = 10;
+
+    public int Vida { get => vida; set => vida = value; }
+    public string Nombre { get => nombre; set => nombre = value; }
+
     // Start is called before the first frame update
     void Start()
     {
